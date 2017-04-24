@@ -1,0 +1,7 @@
+use_frameworks!
+platform :ios, '8.0'
+target 'LeancloudSearcher' do
+    pod 'LeanCloud'
+    pod 'AVOSCloud'
+    pod 'AVOSCloudCrashReporting' # 错误报告模块
+end
